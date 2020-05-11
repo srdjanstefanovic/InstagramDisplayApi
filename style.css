@@ -1,0 +1,14 @@
+body {
+    padding-top: 56px;
+}
+#profil-slika{
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+footer{
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width:100%
+}

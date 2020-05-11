@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Instagram API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- main.js i css -->
+    <script src="main.js" ></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigacija -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="index.html" id="head-profil">Profil korisnika</a>      
+        </div>
+    </nav>
+    <!-- Sadrzaj -->
+    <div class="container">
+
+        <h1 class="my-4">Aplikacija - Instagram Basic Display API</h1>
+
+        <!-- Svojstva -->
+        <div class="row">
+            <div class="col ">
+                <img class="img-fluid rounded" id ="profil-slika" src="http://placehold.it/700x450/BDE550/000000?text=Niko+na+vidiku" alt="">
+            </div>
+            <div class="col-md-6"> 
+                <p>Podaci o korisniku:</p>
+                <ul>
+                <li id="full-name">
+                    <strong>Lorem ipsum</strong>
+                </li>
+                <li id="user-bio">Lorem ipsum</li>
+                <li id="user-website">Lorem ipsum</li>
+                <li>Brojke:
+                    <ul>
+                    <li id="user-media">Broj objava: </li>
+                    <li id="user-followed-by">Broj pratioca: </li>
+                    <li id="user-follows">Prati: </li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            <div class="col-sm"></div>
+        </div>
+        <hr>
+    </div>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark" >
+        <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Elab 2020</p>
+        </div>
+    </footer>
+</body>
+</html>
+
