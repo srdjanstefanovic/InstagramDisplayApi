@@ -1,14 +1,46 @@
 body {
     padding-top: 56px;
+    background-color: rgba(43, 79, 156, 0.89);
+    background-image: url("poz.png");
+    background-repeat: repeat;
+    background-position-y: left;
+    background-position-x: right;
+    margin-right: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
 }
-#profil-slika{
-    position: absolute;
+.navbar{
+    background-color: lemonchiffon;
+    text-decoration-color: black;
+    align-self: flex-start;
+}
+.py-5{
+    background-color: lemonchiffon;
+    text-decoration-color: black;
+    
+}
+
+#poslednja-slika{
+    position: relative;
     top: 15%;
     right: 0;
+    border-style: dotted;
 }
 footer{
-    position: relative; 
+    position: absolute; 
     left: 0; 
     bottom: 0; 
-    width:100%
+    width: 100%;
+}
+
+.row{
+    font-size: 20px;
+
+}
+
+.container1{
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 55px;
 }
